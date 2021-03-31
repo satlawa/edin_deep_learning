@@ -1,6 +1,8 @@
 import torch
 from torch import nn
 
+from .layers import *
+
 class UNET(nn.Module):
     def __init__(self, in_channels, out_channels):
         super().__init__()
