@@ -20,7 +20,7 @@ class ForestDataset(torch.utils.data.Dataset):
         self.dsm = self.dset['dsm']
         self.dtm = self.dset['dtm']
         self.slope = self.dset['slope']
-        self.ground_truth = self.dset['ground_truth']
+        self.ground_truth = self.dset['ground_truth_2']
 
         # set number of samples
         self.dataset_size = 39280
